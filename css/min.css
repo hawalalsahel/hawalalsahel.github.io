@@ -1,0 +1,486 @@
+		.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+/** { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;  }*/
+
+.innerWrapper {
+	max-width: 920px;
+	margin: 0 auto;
+}
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  padding: 0.5rem 1rem; 
+  background-color: #f8f9fa;/*#f1f1f1;*/
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0%; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+/*.navbar{
+	border-bottom: 2px solid blue;
+}*/
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 5px 30px 5px 40px;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+/*.header a.active {
+  background-color: green;
+  color: white;
+}*/
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  padding-left: 100px; 
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+h2, h4 {
+	font-family: 'Abril Fatface', serif;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 100px;
+	margin: 0 0 30px 0;
+}
+
+header {  
+	background-image: url("../img/bg-16.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.hero {
+	text-align: center;
+	text-shadow: 1px 0 2px #595859;
+}
+
+.hero h1 {
+	font-size: 5.5rem;
+	margin:0;
+	padding-top: 200px;
+	font-family: 'Abril Fatface', serif;
+	color: #fff;
+}
+
+.hero h3 {
+	padding-bottom: 250px;
+	font-family: 'Quicksand', sans-serif;
+	font-style: italic;
+	color: #fff;
+	font-size: 1.7rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+
+@media (max-width:900px) {
+  .companyName {
+    width: 100%;
+    text-align: center;
+    padding: 4% 4%;
+  }
+  
+ .mainNav {
+ 	overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  header nav ul {
+    border: none;
+  }
+  
+  header nav ul li a {
+    padding: 25px 2%;
+  }
+}
+
+.icons{
+	font-size:40px;
+  margin-left: 10px; 
+
+}
+.icons2{
+  font-size:40px;
+  margin: 0px 20px;
+
+}
+.numbers{
+	font-size: 23px;
+	font-family: 'Oswald', sans-serif;
+  padding: 0px 0px 0px 15px;
+}
+.navbar-brand{
+	font-size: 2.25rem;
+} 
+
+nav .row{
+    padding: 10px 30px 10px 10px;
+}
+.book:hover{
+  background: none;
+}
+
+@media(max-width: 360px){
+
+  .contact-header{
+    width: 100%;
+  }
+  .numbers{
+    margin-right: 100px;
+  }
+}
+.paywrite{
+  text-align: center;
+}
+.paywrite h4{
+  font-size: 20px;
+  color: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+}
+.paywrite p{
+  color: #fbda91;
+  font-family: 'Roboto Slab', serif;
+}
+
+.footer h1, h2, h3, h4, h5, h6 { color: #161f23; margin: 0px 0px 15px 0px; font-family: 'Source Sans Pro', sans-serif; font-weight: 700; }
+        .footer h1 { font-size: 42px; }
+        .footer h2 { font-size: 32px; }
+        .footer h3 { font-size: 24px; }
+        .footer h4 { font-size: 20px; }
+        .footer h5 { font-size: 14px; }
+        .footer h6 { font-size: 12px; }
+        .footer p { margin: 0 0 20px; line-height: 1.7; }
+        .footer p:last-child { margin: 0px; }
+        .footer ul, ol { }
+        .footer a { text-decoration: none; color: #6d767a; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+        .footer a:focus, a:hover { text-decoration: none; color: #235f83; }
+        .footer hr { border-top: 1px solid #e4e7e9; margin-bottom: 50px; margin-top: 50px; }
+        .footer .btn { font-family: 'Source Sans Pro', sans-serif; font-size: 16px; text-transform: capitalize; font-weight: 700; padding: 12px 24px; letter-spacing: 0px; border-radius: 3px; line-height: 2; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; word-wrap: break-word; white-space: normal !important; }
+        .footer .btn-default { background-color: #ff9f2a; color: #fff; border: 1px solid #ff9f2a; }
+        .footer .btn-default:hover { background-color: #ec8a13; color: #fff; border: 1px solid #ec8a13; }
+        .footer .btn-default.focus, .btn-default:focus { background-color: #ec8a13; color: #fff; border: 1px solid #ec8a13; box-shadow: 0 0 0 0.1rem rgb(236, 138, 19); }
+        .footer .form-control { border-radius: 0px; font-size: 14px; font-weight: 700; width: 100%; height: 64px; padding: 16px 20px; line-height: 1.42857143; border: 1px solid #d6dadc; background-color: #fff; text-transform: capitalize; letter-spacing: 0px; margin-bottom: 30px; -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); -webkit-appearance: none; color: #011c28; }
+        .footer .form-control:focus { color: #011c28; outline: 0; box-shadow: 0 0 0 0.0rem rgb(255, 255, 255); border-color: #c9cdd0; background-color: #f0f4f6; }
+        .footer { background-color: #08202e; padding-top: 80px; color: #636e74; font-weight: 400; font-size: 17px; }
+        .footer-line { border-color: #152e3d; }
+        .footer-widget { padding-bottom: 50px; }
+        .footer-title { font-size: 24px; font-weight: 600; margin-bottom: 44px; color: #fff; }
+        .footer-widget ul li a { text-transform: capitalize; font-size: 17px; color: #636e74; display: block; font-weight: 600; }
+        .footer-widget ul li a:hover { color: #fff; }
+        .newsletter-form { padding-top: 15px; }
+        .newsletter-form .form-control { background-color: #fff; border-color: #1e2e38; }
+        .newsletter-form .form-control:focus { color: #000; }
+        .newsletter-form input::-webkit-input-placeholder { color: #000 !important; }
+        .newsletter-form input:focus::-webkit-input-placeholder { color: #000 !important; }
+        .tiny-footer { font-size: 14px; padding: 14px 0px; font-weight: 600; background-color: transparent; border-top: 1px solid #152e3d; color: #888d90; line-height: 1; }
+
+.About{
+  font-size: 46px;
+  font-family:'Poppins', sans-serif;
+}
+.list-unstyled:hover{
+    color: #fff
+}
+.middle{
+  position: absolute;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.lead{
+  font-family: 'Muli', sans-serif;
+  color: #0c093c;
+}
+.pay{
+  background-color: rgba(0,0,0,0.75);
+}
+h3.heading{
+  marker-top: 25px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1.5rem 0rem;
+  color: white;
+}
+.heading-underline{
+  width: 3rem;
+  height: .2rem;
+  background-color: #b2d3be;
+  margin: 0 auto 2rem;
+}
+.callmodal {
+  text-align: center;
+}
+.callmodal i{
+  float: left;
+  padding: 0px;
+}
+.paywrite img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+.heading-tittle{
+  marker-top: 25px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 1.5rem 0rem;
+  color: black;
+}
+.form-contact{
+  width: 600px;
+}
+@media(max-width: 320px){
+  .abuts{
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form-contact{
+    width: 350px;
+  }
+}
+@media (max-width: 320px) {
+  .form-contact{
+    width: 350px;
+  }
+}
+      .header-fixed {
+  background-color: #08202e;
+  box-shadow:0 1px 1px #ccc;
+  padding: 20px 40px;
+  height: 80px; 
+  color: #ffffff;
+  box-sizing: border-box;
+  top:-100px;
+
+  -webkit-transition:top 0.3s;
+  transition:top 0.3s;
+}
+
+.header-fixed .header-limiter {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/*  The header placeholder. It is displayed when the header is fixed to the top of the
+  browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder{
+  height: 80px;
+  display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+  float: left;
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  margin: 0;
+}
+
+.header-fixed .header-limiter h1 span {
+  color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+  font:16px Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  float: right;
+  top: 11.5%;
+}
+
+.header-fixed .header-limiter nav a{
+  display: inline-block;
+  padding: 0 5px;
+  text-decoration:none;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+  opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+  color: #608bd2;
+  pointer-events: none;
+  opacity: 1;
+}
+
+/* Fixed version of the header */
+
+.fixed .header-fixed {
+  padding: 10px 40px;
+  height: 65px;
+  position: fixed;
+  width: 100%;
+  top: 11.5px;
+  left: 0;
+  z-index: 1;
+}
+.header-limiter h1 a img{
+  width: 50px;
+  height: 50px;
+}
+
+
+body.fixed .header-fixed-placeholder {
+  display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+  line-height: 28px;
+  font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+  .header-fixed {
+    padding: 20px 0;
+    height: 100px;
+  }
+
+  .header-fixed .header-limiter h1 {
+    float: none;
+    margin: -8px 0 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .header-fixed .header-limiter nav {
+    line-height: 1;
+    float:none;
+  }
+
+  .header-fixed .header-limiter nav a {
+    font-size: 13px;
+  }
+
+  body.fixed .header-fixed {
+    display: none;
+  }
+
+}
+
+.card-title{
+  padding-left: 1rem;
+}
+
+/*
+   We are clearing the body's margin and padding, so that the header fits properly.
+   We are also adding a height to demonstrate the scrolling behavior. You can remove
+   these styles.
+ */
+
+/*body {
+  margin: 0;
+  padding: 0;
+  height: 1500px;
+}*/
+
+
+#myBtn_video {
+  display: block;
+  position: fixed;
+  bottom: 18%;
+  right: -10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 50px 0px 0px 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+/*#myBtn_video:hover {
+  background-color: #13abff;
+}*/
+
+
+.button12 {
+  border-radius: 4px;
+  background-color: cover;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding: 10px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button12 i{
+  margin-right: 5px;
+  height: 45px;
+  width: 45px;
+  color: green;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s;
+  font-size: 26px;
+}
